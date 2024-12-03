@@ -1,0 +1,47 @@
+.container{
+  width: 100vw;
+}
+
+.header{
+  width: 100%;
+  padding: 0 3%;
+}
+
+.navbar{
+  width: 100%;
+  padding: 0 3%;
+  margin-top: 2%;
+}
+.body{
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order_name{
+  margin-top: 2%;
+  border: 1px solid black;
+  padding: 1% 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn{
+ background-color: #FC8A06;
+ border: none;
+ padding: 5% 20%;
+ border-radius: 20px;
+ cursor: pointer;
+ color: white;
+ font-weight: 500;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 3%;
+}

@@ -1,0 +1,36 @@
+.container{
+  width: 100vw;
+  height: 120vh;
+
+}
+.top{
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+.footer{
+  height: 30%;
+  width: 100%;
+}
+
+.left{
+  width: 50%;
+  height: 100%;
+  margin-top: 1%;
+}
+
+.right{
+  height: 100%;
+  flex: 1;
+  padding: 1% 2%;
+
+ 
+}
+
+
+.img{
+  height: 100%;
+  width: 100%;
+  
+}

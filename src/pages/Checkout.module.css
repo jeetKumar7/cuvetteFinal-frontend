@@ -1,0 +1,91 @@
+.container{
+  width: 100vw;
+}
+
+.header{
+  width: 100%;
+  padding: 0 3%;
+}
+
+.navbar{
+  width: 100%;
+  padding: 0 4%;
+  margin-top: 2%;
+}
+
+.order_details_text{
+  width: 100%;
+  padding: 0 3%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.body{
+  display: flex;
+  width: 100%;
+  padding: 0 3%;
+  gap: 4%;
+}
+
+.left{
+  border: 1px solid black;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 1% 1%;
+  gap: 10px;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+.right{
+  flex: 1;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order_food_cart_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2%;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card_left{
+  display: flex;
+  gap: 15px;
+  
+}
+
+.delivery_top{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 100%;
+  padding: 2% 4%;
+  border-radius: 30px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn{
+  background-color: #FC8A06;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 2% 2%;
+  cursor: pointer;
+}
+
+.similar_rest{
+  width: 100%;
+  padding: 0 3%;
+  margin-top: 3%;
+}
+.footer{
+  margin-top: 3%;
+}

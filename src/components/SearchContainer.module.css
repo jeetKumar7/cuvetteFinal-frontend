@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search_container{
+  display: flex;
+  gap: 10px;
+  color: rgba(3, 8, 31, 0.6);
+  border: 1px solid rgba(3, 8, 31, 0.6);
+  padding: 1% 1%;
+  border-radius: 30px;
+}
+
+.input_field{
+  border: none;
+  outline: none;
+  font-weight: bold;
+}

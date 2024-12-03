@@ -1,0 +1,49 @@
+.container{
+  padding: 2% 2%;
+  width: 100%;
+  
+}
+.header{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.fields{
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+}
+
+.input_field{
+  border: 1.5px solid rgba(197, 197, 197, 0.5);
+  border-radius: 7px;
+  outline: none;
+  padding: 1% 1%;
+  width: 50%;
+}
+
+.textarea{
+  border: 1.5px solid rgba(197, 197, 197, 0.5);
+  outline: none;
+  width: 100%;
+  font-family: "Poppins", serif;;
+  padding: 2% 2%;
+  height: 100px;
+  resize: none;
+  border-radius: 7px;
+}
+
+.btn{
+  background-color: #FC8A06;
+  color: white;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  padding: 1% 2%;
+  margin-top: 2%;
+  border-radius: 7px;
+  float: right;
+  margin-bottom: 1%;
+  cursor: pointer;
+}

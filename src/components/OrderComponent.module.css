@@ -1,0 +1,43 @@
+.container{
+  width: 100%;
+  display: flex;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+}
+
+
+.left{
+  padding: 0 4%;
+  padding-top: 2%;
+  z-index: 1;
+}
+.img{
+  width: 100%;
+  height:350px;
+  z-index: 1000;
+  
+
+}
+.right{
+  padding: 4% 4%;
+  padding-top: 5%;
+}
+
+.personalised_div{
+  background-color: black;
+  padding: 1% 0;
+  border-radius: 33px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: -25%;
+  z-index: -1;
+}
+.logo_download{
+  display: flex;
+  margin-top: 2%;
+  gap: 2%;
+  cursor: pointer;
+  margin-left: 15%;
+
+}

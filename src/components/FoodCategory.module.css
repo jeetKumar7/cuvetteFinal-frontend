@@ -1,0 +1,10 @@
+.container{
+  width: 100%;
+}
+
+.food_card_div{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2%;
+  margin-top: 2%;
+}

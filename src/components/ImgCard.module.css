@@ -1,0 +1,62 @@
+.container{
+  width: 100%;
+  position: relative;
+  height: 250px;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(45deg,  #FFFFFF 0% , #03081F 19%, #03081F 89%,);
+}
+.text{
+  float: left; /* Floats the bottom item */
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.discount{
+  float: right;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 2% 4%;
+  margin-right: 7%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.btn{
+  background-color: #FC8A06;
+  color: white;
+ font-weight: bold;
+ padding: 5% 15%;
+ border: none;
+ margin-top: 5%;
+ border-radius: 30px;
+ cursor: pointer;
+ margin-left: -5%;
+
+}
+.text_white{
+  float: left;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 2% 2%;
+  margin-left: 3%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.add_cart{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 4% 4%;
+  border-top-left-radius: 20px;
+}

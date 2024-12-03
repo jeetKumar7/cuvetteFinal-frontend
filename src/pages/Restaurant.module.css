@@ -1,0 +1,106 @@
+.container{
+  width: 100vw;
+
+}
+.header{
+  width: 100%;
+  padding: 0 3%;
+
+}
+
+.navbar{
+  width: 100%; 
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.restaurant_banner{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.search_container_withText{
+  width: 100%;
+  padding: 0 3%;
+  margin-top: 4%;
+}
+
+.menu_navbar{
+  width: 100%;
+  margin-top: 2%;
+}
+
+
+.food_card_div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2%;
+  
+}
+
+.categories_data{
+  width: 100%;
+  margin-top: 1%;
+  /* padding: 0 3%;  */
+}
+
+.fries_data{
+  width: 100%;
+ margin-top: 1%;
+  /* padding: 0 3%; */ 
+}
+
+.timing_div{
+  width: 100%;
+  margin-top: 3%;
+  padding: 0 3%;
+}
+
+.map{
+  width: 100%;
+  margin-top: 3%;
+  padding: 0 3%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.map_subpart{
+  position: absolute;
+  background-color: #03081FF7;
+  border-radius: 10px;
+  top: 30%;
+  left: 4%;
+  z-index: 1000;
+  width: 30%;
+  color: white;
+  padding: 2% 2%;
+
+}
+
+
+.similar_rest{
+  width: 100%;
+  margin-top: 8%;
+  padding: 0 3%;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 3%;
+ 
+}
+
+.testimonials{
+  width: 100%;
+  margin-top: 3%;
+  
+}
+
+.mini_container{
+  width: 100%;
+  display: flex;
+  margin-top: 3%;
+  padding: 0 3%;
+  gap: 5%;
+}

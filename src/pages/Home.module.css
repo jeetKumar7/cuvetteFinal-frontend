@@ -1,0 +1,77 @@
+.container{
+  width: 100vw;
+  
+}
+.header{
+  width: 100%;
+  padding: 0 3%;
+}
+
+.navbar{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.banner{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.sub_navbar{
+  width: 100%;
+  margin-top:2%;
+  padding: 0 3%;
+}
+
+.food_card_div{
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  gap: 2%;
+  padding: 0 3%;
+}
+.food_categories{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.food_categories{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.download_container{
+  width: 100%;
+  margin-top: 4%;
+  padding: 0 3%;
+}
+
+.partenr_div{
+  width: 100%;
+  margin-top: 4%;
+  display: flex;
+  gap: 2%;
+  padding: 0 3%;
+}
+
+.about_us_div{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.number_div{
+  width: 100%;
+  margin-top: 2%;
+  padding: 0 3%;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 2%;
+  
+}

@@ -1,0 +1,65 @@
+.container{
+  width: 100%;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3% 3%;
+  width: 100%;
+}
+
+.input_field{
+
+  outline: none;
+  padding: 2% 2%;
+  margin-left: 20px;
+  width: 60%;
+  border: 1px solid #AFAFAF;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: #FC8A06;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 3%;
+}
+
+.remove{
+  background-color: #663700;
+  color: white;
+  border: none;
+  padding: 2% 2%;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.right_btn{
+  display: flex;
+  color: white;
+  font-weight: 500;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.save{
+  background-color: white;
+  color: black;
+  padding: 2% 5%;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.fields{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
